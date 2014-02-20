@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><widget xmlns="http://www.w3.org/ns/widgets" id="http://ax.example.com/hybird" version="1.0.0">
+		<name>Hybrid</name>
+		<content src="index.html"/>
+		<icon src="widget-icon.png"/>
+		<feature name="http://wacapps.net/api/deviceapis"/>
+	</widget>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="/appspresso/appspresso.js"></script>
+<script src="./js/jquery-1.6.4.js"></script>
+<script src="./js/jquery.mobile-1.1.0.js"></script>
+<link href="./css/jquery.mobile.structure-1.1.0.css" rel="stylesheet">
+<link href="./css/jquery.mobile.theme-1.1.0.css" rel="stylesheet">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Insert title here</title>
+<script>
+//activate ax.log(), comment out when you release app
+ax.runMode = ax.MODE_DEBUG;
+</script>
+</head>
+<body>
+	<div data-role="page" id="page1">
+		<div data-role="header">
+			<h1>자기소개하기</h1>
+		</div>
+		<div data-role="content">
+			<form method="GET">
+				<div data-role="fieldcontain">
+					<label for="name">이름</label> <input type="text" name="id"
+						value="이름">
+				</div>
+				<span>자기소개</span>
+				<textarea data-theme="b" name="self">자기소개를 입력하세요</textarea>
+				<a data-role="button" id="confirm" data-theme="b" data-inline="true" href="http://finfra.com/~tv20/m.php">확인</a>
+				
+			</form>
+		</div>
+		<div data-role="footer">
+			<div data-role="navbar">
+				<ul>
+					<li><a data-role="button" data-rel="page" href="./index.html" >회사소개</a></li>
+					<li><a data-role="button" data-rel="page" href="./self.html" class="ui-btn-active">자기소개</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
